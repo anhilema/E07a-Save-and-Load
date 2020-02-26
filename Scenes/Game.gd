@@ -14,4 +14,4 @@ func SavePressed():
 	get_node("/root/SaveSystem").saveValue("Values", "ValueOne")
 
 func LoadPressed():
-	get_node("/root/SaveSystem").saveValue("Values", "ValueOne")
+	get_node("/root/SaveSystem").loadValue("Values", "ValueOne")

@@ -12,7 +12,6 @@ func _ready():
 func saveValue(section, key):
 	config.set_value(section, key, DisplayValue)
 	config.save(save_path)
-	pass
 	
 func loadValue(section, key):
 	DisplayValue = config.get_value(section, key, DisplayValue)
